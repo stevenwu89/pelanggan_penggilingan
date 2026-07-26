@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350138257109",
+    "project_id": "penggilingan-bumbu",
+    "storage_bucket": "penggilingan-bumbu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350138257109:android:fd6ba8f779e70b5f011c5c",
+        "android_client_info": {
+          "package_name": "com.example.pelanggan_penggilingan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXwsUsX6rx69p8rpDX8YSUNvZy51G8tn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

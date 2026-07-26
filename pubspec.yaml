@@ -1,0 +1,53 @@
+name: pelanggan_penggilingan
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.4.0
+  gal: ^2.3.2
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.2
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.20.3
+  flutter_spinkit: ^5.2.1
+  google_fonts: ^8.1.0
+  flutter_svg: ^2.0.10+1
+  permission_handler: ^12.0.3
+  file_picker: ^11.0.2
+  qr_flutter: ^4.1.0
+  path_provider: ^2.1.4
+  firebase_core: ^4.12.1
+  firebase_messaging: ^16.4.3
+  flutter_local_notifications: ^17.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4 # Package generator ikon
+
+# Konfigurasi untuk Flutter Launcher Icons
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # Mendaftarkan folder assets agar logo bisa dibaca oleh project
+  assets:
+    - assets/icon/
